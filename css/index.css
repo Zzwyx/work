@@ -1,0 +1,153 @@
+/*首页样式定义*/
+
+/*主体部分样式定义*/
+.hg-content{
+	padding-top:1.875rem;
+}
+.hg-title{
+	width:9.45rem;
+	height:1.825rem;
+	margin-bottom:1.25rem;
+}
+.hg-main{
+	width:16rem;
+	height:13.5rem;
+	position:relative;
+
+}
+.hot-box{
+	display:inline-block;
+	/* background-image:url('../images/hot-cloud.png');
+	background-repeat:no-repeat; */
+	position:absolute;
+
+}
+.hot-left{
+	top:1.125rem;
+	left:1.625rem;
+	width:1.25rem;
+	height:1.5rem;
+	background:url('../images/hot-little.png') no-repeat 0 0/100% 100%;
+}
+.hot-right{
+	top:0.125rem;
+	right:1.75rem;
+	width:2rem;
+	height:2.5rem;
+	background:url('../images/hot.png') no-repeat 0 0/100% 100%;
+}
+.cloud-left{
+	bottom:2.5rem;
+	left:4rem;
+	width:1.7rem;
+	height:1rem;
+	background:url('../images/cloud.png') no-repeat 0 0/100% 100%;
+}
+.cloud-right{
+	bottom:3.125rem;
+	right:3.7rem;
+	width:1.825rem;
+	height:1.075rem;
+	background:url('../images/cloud-right.png') no-repeat 0 0/100% 100%;
+}
+
+
+
+.hg-link{
+	position:relative;
+	padding-top:1.25rem;
+	padding-bottom:0.5rem;
+	background:url('../images/map.png') no-repeat top center/120% 120%,
+	url('../images/shadow.png') no-repeat 0.8rem 0.25rem/100% 100%;	
+}
+.person{
+	position:absolute;
+	top:-2.2rem;
+	right:0.55rem;
+    width:2.85rem;
+    height:3.5rem;
+    background:url('../images/person.png') no-repeat 0 0/100% 100%;
+
+}
+.hg-btn{
+	width:7.25rem;
+	height:1.5rem;
+	line-height:1.5rem;
+	background:#E60012;
+	border-radius:0.3rem;
+	margin:0 auto;
+	margin-bottom:0.45rem;
+	text-align:center;
+	font-size:0.5rem;
+
+}
+
+/*点击分享朋友圈样式*/
+.share{
+	background:rgba(40,40,40,0.2);
+	position:absolute;
+	top:0;
+	left:0;
+	color:#848585;
+	width:100%;
+	height:30rem;
+	display:none; 
+}
+.share-choose{
+	background:#EAEDEF;
+	position:absolute;
+	top:12rem;
+	left:3.15rem;
+	border-radius:0.25rem;
+
+}
+.share-top{
+	padding: 0.85rem 1.375rem 0.75rem;
+}
+.share-title{
+	text-align:center;
+	margin-bottom:0.8rem;
+	font-size: 0.625rem;
+
+}
+.share-icon>a{
+	display: inline-block;
+	width:2.2rem;
+	font-size:0.46rem;
+	color:#848585;
+	text-align: center;
+}
+.share-icon>a>span{
+	height:1.8rem;
+	width:1.85rem;
+	display: inline-block;	
+	background-repeat:no-repeat;
+	background-size:100%;
+
+
+}
+.wechat{
+	background-image:url('../images/7_140223103130591.png');
+
+}
+.qq{
+	background-image:url('../images/e1157e81302df7793eb8406dae773b0a.png');
+}
+.qqq{
+	margin-left:0.725rem;
+	margin-right:0.725rem;
+}
+.webo{
+	background-image:url('../images/mzl.amvyqtlq.png');
+}
+.share-bottom{
+	padding-top:0.425rem;
+    border-top:1px solid #ADADAD;
+    padding-bottom:0.5rem;
+    font-size:0.46rem;
+    text-align:center;
+}
+
+
+
+

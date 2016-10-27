@@ -1,0 +1,131 @@
+/*主体部分样式定义*/
+.bg{
+	background:url('../images/bg.png') no-repeat 0 0/100% auto;
+}
+
+.job-content{
+   padding-top:2.425rem;
+   padding-left:1.17rem;
+   padding-right:1.35rem;
+   padding-bottom:3.075rem;
+
+}
+.job-total{
+	position:relative;
+	background:url('../images/033.png') no-repeat center/100% auto;
+	border-radius:0.8rem;
+	padding-top:1.625rem;
+	padding-bottom:0.75rem;
+
+}
+
+
+.job-title{
+	position:absolute;
+	left:0.85rem;
+	top:-0.7rem;
+}
+.job-title>span{
+	display: inline-block;
+	background:url('../images/biaoti.png') no-repeat 0 0/100% 100%;
+	padding:0.3rem 0.325rem 0.325rem 0.55rem;
+	font-size:0.816rem;
+	color:#ffffff;
+}
+.job-detail>ul>li{
+	text-align:center;
+	margin-bottom:0.65rem;
+}
+.job-detail>ul>li>a{
+	display:inline-block;
+	background:url('../images/jobbg.png') no-repeat 0 0/100% 100%;
+	text-align:center;
+	font-size:0.68rem;
+	padding:0.575rem 0.85rem 0.5rem 1.05rem;
+}
+.job-detail>ul>li:nth-child(2)>a,.job-detail>ul>li:nth-child(3)>a{
+	padding-left:1.95rem;
+	padding-right:2.2rem;
+}
+.job-icon>span{
+	display:inline-block;
+	position:absolute;
+}
+.hot{
+	width:2.475rem;
+	height:3.125rem;
+	background:url('../images/jobhot.png') no-repeat 0 0/100% 100%;
+	overflow: hidden;
+	top:-0.6rem;
+	right:0.875rem;
+
+}
+.line{
+	width:1.45rem;
+	height:3.525rem;
+	background:url('../images/line-top.png') no-repeat 0 0/100% 100%;
+	top:2.35rem;
+	right:2.875rem;
+
+}
+.job-cloud{
+	width:2.35rem;
+	height:1.375rem;
+	background:url('../images/cloud2.png') no-repeat 0 0/100% 100%;
+	top:2rem;
+	right:-0.45rem;
+}
+.job-cloud-left{
+	width:2.125rem;
+	height:1.2rem;
+	background:url('../images/job-cloud-left.png') no-repeat 0 0/100% 100%;
+	bottom:1.925rem;
+	left:-0.5rem;
+}
+
+/*销售管理培训生*/
+.job-sela{
+	
+	padding-top:1.925rem;
+	padding-bottom: 1.05rem;
+	position:relative;
+	background:	
+	url('../images/088.png') no-repeat bottom/100% auto;
+}
+.sela-hot{
+	width:2.75rem;
+	height:3.375rem;
+	background:url('../images/sela-hot.png') no-repeat 0 0/100% 100%;
+	top:1.2rem;
+	left:0.5rem;
+	
+}
+.sela-cloud{
+	width:3.45rem;
+	height:2.05rem;
+	background:url('../images/sela-cloud.png') no-repeat 0 0/100% 100%;
+	bottom:-0.8rem;
+	left:2.5rem;
+	
+}
+.sela-line{
+	width:10.125rem;
+	height:4.3rem;
+	background:url('../images/line-bottom.png') no-repeat 0 0/100% 90%;
+	left:2.775rem;
+	top:4.25rem;
+	transform: rotate(-7deg);
+    
+   }
+.f-bg{
+	background:#E6E6E7;
+}
+
+.com{
+    margin:0 auto;
+	width:13.475rem;
+	height:1.375rem;
+	background:url('../images/08.png') no-repeat top/100% auto;
+	
+}
+
